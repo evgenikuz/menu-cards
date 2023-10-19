@@ -111,8 +111,8 @@ body {
     font-weight: 400;
     line-height: 150%;
     cursor: pointer;
-    max-width: max-content;
-    min-width: 256px;
+    align-self: stretch;
+    margin-top: auto;
 }
 .to-cart:hover {
     transform: scale(1.01);
@@ -150,12 +150,15 @@ body {
     .menu {
         grid-template-columns: repeat(2,1fr);
     }
+    .menu-card {
+        max-width: 370px;
+    }
 }
 @media (max-width:599px) {
     .menu {
         grid-template-columns: 1fr;
     }
     .menu-card {
-        min-width: 400px;
+        max-width: 550px;
     }
 }
