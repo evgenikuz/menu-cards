@@ -120,11 +120,14 @@ body {
 }
 .to-cart:hover {
     transform: scale(1.01);
+    color: white;
+    background-color: #70C05B;
 }
 .raiting {
     text-align: center;
     height:16px;
     display: flex;
+    width:max-content;
 }
 .raiting input {
     display: none;
